@@ -1,0 +1,263 @@
+@font-face{
+    src:url(font/FC\ Home\ Regular\ ver\ 1.01.ttf);
+    font-family: FCHOME;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+.shopping_cart{
+    top: 100px;
+    margin-top: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    position: relative;
+    margin: auto;
+    
+    width: 980px;
+    background:white;
+    color: black;
+    padding: 30px 30px 30px 30px;
+    border: 1px solid #5D6D7E;
+
+    
+    
+    
+   
+    
+}
+.shopping_cart .h1{
+    font-family: FCHOME;
+    font-size: 50px;
+    color: #a83b24;
+    text-align: center;
+}
+.shopping_cart .text_lsitfood{
+    font-family: FCHOME;
+    font-size: 30px;
+    color: #000000;
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+
+
+body {
+    font-size: 16px;
+    font-family: FCHOME;
+    background-color: #ffffff;
+    color: #273746;
+}
+
+
+
+
+
+table {
+    width: 100%;
+    /* ผสาน border ระหว่าง table กับ td  */
+    border-collapse: collapse;
+}
+
+table,
+td {
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+}
+
+thead {
+    background-color: #a83b24;
+    color: #ffffff;
+    font-family: FCHOME;
+}
+
+/* Striped Tables: ทำไฮไล์ในการแบ่ง row  */
+tr:nth-child(even) {
+    
+    background-color: #0099ff;
+}
+
+
+
+.head_bg{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index:1;
+    
+}
+.head_logo{
+    position: fixed;
+    z-index: 5;
+    top: 10px;
+    left: 350px;
+}
+
+.bt_login{          /* Login*/
+    top: 19px;
+    position: fixed;
+    z-index: 5;
+    right: 470px;
+    font-family:FCHOME;
+    color: black;;
+    font-size: 20px;
+}
+
+.bt_login a{
+    text-decoration-line: none;
+    color:black;
+}
+
+.bt_reg{            /* Register*/
+    top: 19px;
+    position: fixed;
+    z-index: 5;
+    right: 350px;
+    font-family:FCHOME;
+    color: black;;
+    font-size: 20px;
+}
+
+.bt_reg a{
+    text-decoration-line: none;
+    color: black;
+}
+
+.head_k{
+    top: 19px;
+    position: fixed;
+    z-index: 5;
+    right: 450px;
+    font-family:FCHOME;
+    color: black;;
+    font-size: 20px;
+}
+
+.shopping_cart .photo_cart{
+    
+    padding:10px 10px 10px 10px;
+    border: hidden;
+}
+
+.shopping_cart .headt{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: hidden;
+}
+
+tr td{
+    padding-left: 100px;
+    border: hidden;
+    background-color: #f0f0f0;
+}
+
+tr .headt{
+    margin-top: 60px;
+    border: hidden;
+}
+table{
+    /* border: hidden; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    padding: 30px 30px 30px 30px;
+    border: hidden;
+}
+.shopping_cart a{
+    text-decoration: none;
+}
+
+.shopping_cart .name_cart{
+    font-size: 25px;
+    text-align: left;
+    bottom: 1px;
+    border: hidden;
+    font-family:FCHOME;
+}
+
+.shopping_cart .way_cart{
+    font-size: 20px;
+    text-align: left;
+    font-family:FCHOME;
+
+    
+}
+.shopping_cart .Am_cart{
+    font-size: 20px;
+    font-family:FCHOME;
+}
+
+.shopping_cart .price_cart{
+    font-size: 20px;
+    font-family:FCHOME;
+}
+.shopping_cart .Rem_cart{
+    font-size: 20px;
+    font-family:FCHOME;
+    text-align: center;
+    padding: 2px 5px 2px 2px;
+    background-color: white;
+    color: red;
+    border-width:1px;  
+    border-style:solid;
+    border-color: black;
+}
+.Bt_back{
+    
+    font-family:FCHOME;
+    font-size: 25px;
+
+    padding: 2px 5px 2px 2px;
+    border-width:1px;  
+    border-style:solid;
+    border-color: black;
+    color: red;
+    font-family: FCHOME;
+}
+
+.Bt_sub{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 300px;
+    background:#a83b24;
+    color:white;
+    font-size: 28px;
+    border-radius: 10px;
+    font-family: FCHOME;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 5px 5px 5px 5px;
+    margin-top: 10px;
+}
+
+.control_user .wallet{            /* Register*/
+    top: 19px;
+    position: fixed;
+    z-index: 6;
+    right: 520px;
+    font-family:FCHOME;
+    color: black;
+    font-size: 20px;
+}
+.Total_price{
+    text-align: center;
+    font-family:FCHOME;
+    font-size: 40px;
+}

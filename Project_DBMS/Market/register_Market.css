@@ -1,0 +1,205 @@
+@font-face{
+    src:url(FC\ Home\ Regular\ ver\ 1.01.ttf);
+    font-family: FCHOME;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin:0;
+    padding:0;
+    background-color:white;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    
+}
+.loginbox{
+    width: 460px;
+    height: 850px;
+    background:white;
+    color: black;
+    top: 16%;
+    left:750px;
+    position: absolute;
+    transform: translate(-50%),-50%;
+    box-sizing: border-box;
+    padding: 20px 30px;
+    opacity: 0.9;
+    filter: alpha(opacity=10);
+    border: 1px solid gray;
+}
+
+.h1{
+
+    padding: 0 0 30px;
+    text-align: center;
+    font-size: 35px;
+    top: 10px;
+    font-family:FCHOME;
+    color: #a83b24;;
+}
+.loginbox p{
+    margin: 0px;
+    padding: 0;
+    font-weight:  bold;
+    font-family: FCHOME;
+    font-size:20px;
+    
+}
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+.loginbox input[type="text"],input[type="password"]{
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color:black;
+    font-size:  18px;
+    font-family: FCHOME;
+
+}
+.loginbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 55px;
+    background:#a83b24;
+    color:white;
+    font-size: 28px;
+    border-radius: 10px;
+    font-family: FCHOME;
+    margin-top: 20px;
+}
+
+.loginbox a{
+    text-decoration: none;
+    font-size: 15px ;
+    line-height: 20px;
+    color: black;
+}
+.loginbox a:hover{
+    color: #ffc107;
+}
+.loginbox a.tk{
+    background-color:gray;/*#fb2525*/
+    font-size: 18px;
+    border-radius: 20px;
+    padding-right: 7px 7px;
+    margin:80%;
+    color: black;
+}
+.loginbox a.tk:hover{
+    background-color: #ffc107;
+}
+.tk{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;    
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 5px;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.head_bg{
+    position: fixed;
+    z-index: 3;
+    top: 0px;
+    left: 0px;
+    
+}
+.head_logo{
+    position: fixed;
+    z-index: 5;
+    top: 10px;
+    left: 350px;
+}
+
+.bt_login{          /* Login*/
+    top: 19px;
+    position: fixed;
+    z-index: 5;
+    right: 470px;
+    font-family:FCHOME;
+    color: black;;
+    font-size: 20px;
+}
+
+.bt_login a{
+    text-decoration-line: none;
+    color: black;
+}
+
+.bt_reg{            /* Register*/
+    top: 19px;
+    position: fixed;
+    z-index: 5;
+    right: 350px;
+    font-family:FCHOME;
+    color: black;;
+    font-size: 20px;
+}
+
+.head_k{
+    top: 19px;
+    position: fixed;
+    z-index: 5;
+    right: 450px;
+    font-family:FCHOME;
+    color: black;;
+    font-size: 20px;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+.botton{
+    padding-top: 300px;
+    position: absolute;
+    margin-bottom: 0px;    
+    margin-top:900px;
+}
+
+.loginbox input[type="file"]{
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 50px;
+    color:black;
+    font-size:  18px;
+    font-family: FCHOME;
+}
+
+.loginbox select{
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 50px;
+    color:black;
+    font-size:  18px;
+    font-family: FCHOME;
+}
+h6{
+    font-family: FCHOME;
+}
+
+.list{
+    position: absolute;
+    top: 170px;
+    margin-left:1250px;
+    font-family:FCHOME;
+    font-size:20px;
+    /* border: 1px solid gray; */
+}

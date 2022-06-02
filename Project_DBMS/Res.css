@@ -1,0 +1,187 @@
+@font-face{
+    src:url(font/FC\ Home\ Regular\ ver\ 1.01.ttf);
+    font-family: FCHOME;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #273746; 
+    overflow-x: hidden;
+}
+
+
+.container {
+    margin: 20px auto;
+    width: 980px;
+    margin-top: 100px;
+    border: 1px solid gray;
+    font-family:FCHONE;
+    background-color: rgb(255, 255, 255);
+    padding: 50px 100px 100px 100px;
+}
+
+.container h1{
+    font-size: 50px;
+    font-family:FCHOME;
+    color:#a83b24;
+    text-align: center;
+    
+}
+
+.container h2{
+    margin-top: 20px;
+    font-size: 30px;
+    font-family:FCHOME;
+    color:black;
+    text-align: left;
+    margin-left: 30px;
+}
+
+table {
+    width: 100%;
+    /* ผสาน border ระหว่าง table กับ td  */
+    border-collapse: collapse;
+    
+}
+
+table,
+td {
+    /* border: 1px solid #000000; */
+
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding: 20px 20px 20px 20px;
+}
+thead, .NameShop{
+    font-size: 40px;
+    font-family:FCHOME;
+    color:white;
+}
+
+
+/* Striped Tables: ทำไฮไล์ในการแบ่ง row  */
+/* tr:nth-child(even) {
+    background-color: #f1f1f1;
+} */
+
+
+.name_shop {
+    text-align: left;
+    padding-left: 16px;
+    font-size: 25px;
+    font-family:FCHOME;
+}
+.container .nameshop2{
+    color: black;
+    font-size: 30px;
+}
+
+
+/*-------------------------------------------------------------------------------*/
+.botton{
+    padding-top: 100px;
+    position: absolute;
+    margin-bottom: 0px;
+    margin-top:300px; 
+}
+
+.head_bg{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index:1;
+    
+}
+.head_logo{
+    position: fixed;
+    z-index: 5;
+    top: 10px;
+    left: 350px;
+}
+
+.bt_login{          /* Login*/
+    top: 19px;
+    position: fixed;
+    z-index: 5;
+    right: 470px;
+    font-family:FCHOME;
+    color: black;;
+    font-size: 20px;
+}
+
+.bt_login a{
+    text-decoration-line: none;
+    color:black;
+}
+
+.bt_reg{            /* Register*/
+    top: 19px;
+    position: fixed;
+    z-index: 5;
+    right: 350px;
+    font-family:FCHOME;
+    color: black;;
+    font-size: 20px;
+}
+
+.bt_reg a{
+    text-decoration-line: none;
+    color: black;
+}
+
+.head_k{
+    top: 19px;
+    position: fixed;
+    z-index: 5;
+    right: 450px;
+    font-family:FCHOME;
+    color: black;;
+    font-size: 20px;
+}
+
+/*---------------------------------------------------------*/
+/* tbody{
+    border-style: hidden;
+    
+} */
+
+a{
+    text-decoration: none;
+}
+.container p{
+    font-family: FCHOME;
+    font-size: 30px;
+    color: #000000;
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+.control_user .wallet{            /* Register*/
+    top: 19px;
+    position: fixed;
+    z-index: 6;
+    right: 520px;
+    font-family:FCHOME;
+    color: black;
+    font-size: 20px;
+}
+
+.container .tkk{
+    text-align:center;
+    position: relative;
+    margin-top: 20px;
+}
+

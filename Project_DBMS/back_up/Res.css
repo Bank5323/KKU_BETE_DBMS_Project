@@ -1,0 +1,152 @@
+@font-face{
+    src:url(font/FC\ Home\ Regular\ ver\ 1.01.ttf);
+    font-family: FCHOME;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F2F3F4;
+    color: #273746; 
+    overflow-x: hidden;
+}
+
+
+.container {
+    margin: 20px auto;
+    /* padding-top: 100px; */
+    width: 980px;
+    margin-top: 100px;
+    border-style: hidden;
+    border-radius: 10px;
+    font-family:FCHONE;
+    background-color: #FFF;
+    padding: 50px 100px 100px 100px;
+}
+
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    /* ผสาน border ระหว่าง table กับ td  */
+    border-collapse: collapse;
+}
+
+table,
+td {
+    border: 20px solid #BDC3C7;
+
+    border-style: hidden;
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding: 20px 20px 20px 20px;
+}
+
+thead {
+    background-color: #a83b24;
+    color: #BDC3C7;
+
+}
+
+/* Striped Tables: ทำไฮไล์ในการแบ่ง row  */
+tr:nth-child(even) {
+    background-color: #BDC3C7;
+}
+
+td {
+    height: 30px;
+    vertical-align: center;
+}
+
+.name {
+    text-align: left;
+    padding-left: 16px;
+    text-decoration: none;
+}
+
+
+/*-------------------------------------------------------------------------------*/
+.botton{
+    padding-top: 100px;
+    position: absolute;
+    margin-bottom: 0px;
+    margin-top:300px; 
+}
+
+.head_bg{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index:1;
+    
+}
+.head_logo{
+    position: fixed;
+    z-index: 5;
+    top: 10px;
+    left: 350px;
+}
+
+.bt_login{          /* Login*/
+    top: 19px;
+    position: fixed;
+    z-index: 5;
+    right: 470px;
+    font-family:FCHOME;
+    color: black;;
+    font-size: 20px;
+}
+
+.bt_login a{
+    text-decoration-line: none;
+    color:black;
+}
+
+.bt_reg{            /* Register*/
+    top: 19px;
+    position: fixed;
+    z-index: 5;
+    right: 350px;
+    font-family:FCHOME;
+    color: black;;
+    font-size: 20px;
+}
+
+.bt_reg a{
+    text-decoration-line: none;
+    color: black;
+}
+
+.head_k{
+    top: 19px;
+    position: fixed;
+    z-index: 5;
+    right: 450px;
+    font-family:FCHOME;
+    color: black;;
+    font-size: 20px;
+}
+
+/*---------------------------------------------------------*/
+tbody{
+    border-style: hidden;
+}
+
+a{
+    text-decoration: none;
+    
+}

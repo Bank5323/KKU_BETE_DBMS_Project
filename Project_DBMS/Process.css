@@ -1,0 +1,278 @@
+@font-face{
+    src:url(font/FC\ Home\ Regular\ ver\ 1.01.ttf);
+    font-family: FCHOME;
+}
+@font-face{
+    src:url(font/BebasNeue-Regular.ttf);
+    font-family: BEBAS;
+}
+/*----------------------------------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.head_bg{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index:1;
+}
+
+.head_logo{
+    position: fixed;
+    z-index: 5;
+    top: 10px;
+    left: 350px;
+}
+
+.bt_login{          /* Login*/
+    top: 19px;
+    position: fixed;
+    z-index: 5;
+    right: 470px;
+    font-family:FCHOME;
+    color: black;;
+    font-size: 20px;
+}
+
+.bt_login a{
+    text-decoration-line: none;
+    color:black;
+}
+
+.bt_reg{            /* Register*/
+    top: 19px;
+    position: fixed;
+    z-index: 5;
+    right: 350px;
+    font-family:FCHOME;
+    color: black;;
+    font-size: 20px;
+}
+
+.bt_reg a{
+    text-decoration-line: none;
+    color: black;
+}
+
+.head_k{
+    top: 19px;
+    position: fixed;
+    z-index: 5;
+    right: 450px;
+    font-family:FCHOME;
+    color: black;;
+    font-size: 20px;
+}
+.wallet{            /* Register*/
+    top: 19px;
+    position: fixed;
+    z-index: 6;
+    right: 520px;
+    font-family:FCHOME;
+    color: black;
+    font-size: 20px;
+}
+.text_code{
+    font-size: 50px;
+    text-align: center;
+    font-family:FCHOME;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+
+@font-face{
+    src:url(font/FC\ Home\ Regular\ ver\ 1.01.ttf);
+    font-family: FCHOME;
+
+}
+*{
+    background:white;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    overflow-x: hidden;
+    background-color: #ffffff;
+}
+.head_bg{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index:1;
+    
+}
+.head_logo{
+    position: fixed;
+    z-index: 5;
+    top: 10px;
+    left: 350px;
+}
+
+.bt_login{          /* Login*/
+    top: 19px;
+    position: fixed;
+    z-index: 6;
+    right: 470px;
+    font-family:FCHOME;
+    color: black;;
+    font-size: 20px;
+}
+
+.bt_login a{
+    text-decoration-line: none;
+    color:black;
+
+}
+
+.bt_reg{            /* Register*/
+    top: 19px;
+    position: fixed;
+    z-index: 5;
+    right: 330px;
+    font-family:FCHOME;
+    color: black;;
+    font-size: 20px;
+}
+
+.bt_reg a{
+    text-decoration-line: none;
+    color: black;
+}
+
+.head_k{
+    top: 19px;
+    position: fixed;
+    z-index: 5;
+    right: 460px;
+    font-family:FCHOME;
+    color: black;;
+    font-size: 20px;
+}
+
+.bt_reg2{
+    top: 19px;
+    position: fixed;
+    z-index: 6;
+    right:300px;
+}
+ .bt_reg2 img{
+    width:25px;
+    height:25px;
+ }
+
+
+/* ------------------------------------------------------------------------------- */
+
+
+
+.container{
+    
+    
+    
+    /* margin-right:200px;
+    margin-left:200px; */
+    border: 1px solid gray;
+    font-family:FCHONE;
+
+    margin: 20px auto;
+    width: 980px;
+    margin-top: 20px;
+    padding: 20px 20px 20px 20px;
+}
+a{
+    text-decoration: none;
+    padding-left: 30px;
+}
+input{
+    margin-left: 20px;
+}
+table,
+td {
+    /* border: 1px solid #000000; */
+
+    
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding: 20px 20px 20px 20px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom:10px;
+    padding-left: 30px;
+    
+}
+
+
+.container p{
+    left: 0px;
+    font-family: FCHOME;
+    font-size: 25px;
+    color: #000000;
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+
+
+.container .Name_food{
+    font-family:FCHOME;
+    font-size: 27px;
+}
+table .Price_food{
+    font-family:FCHOME;
+    font-size: 25px;
+   
+}
+
+body .TT_Price{
+    font-family:FCHOME;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    
+}
+body .SS{
+    text-align: center;
+    font-family:FCHOME;
+    font-size: 40px;
+}
+
+body .SS_H{
+    text-align: center;
+    font-family:FCHOME;
+    font-size: 40px;
+    margin-bottom: 20px;
+    
+}
+
+.Bt_back{
+    
+    font-family:FCHOME;
+    font-size: 25px;
+
+    padding: 2px 5px 2px 2px;
+    border-width:1px;  
+    border-style:solid;
+    border-color: black;
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+

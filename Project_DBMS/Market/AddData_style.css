@@ -1,0 +1,150 @@
+@font-face{
+    src:url(FC\ Home\ Regular\ ver\ 1.01.ttf);
+    font-family: FCHOME;
+}
+@font-face{
+    src:url(BebasNeue-Regular.ttf);
+    font-family: BEBAS;
+}
+/*----------------------------------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.head_bg{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index:1;
+}
+
+.head_logo{
+    position: fixed;
+    z-index: 5;
+    top: 10px;
+    left: 350px;
+}
+
+.bt_login{          /* Login*/
+    top: 19px;
+    position: fixed;
+    z-index: 5;
+    right: 470px;
+    font-family:FCHOME;
+    color: black;;
+    font-size: 20px;
+}
+
+.bt_login a{
+    text-decoration-line: none;
+    color:black;
+}
+
+.bt_reg{            /* Register*/
+    top: 19px;
+    position: fixed;
+    z-index: 5;
+    right: 350px;
+    font-family:FCHOME;
+    color: black;;
+    font-size: 20px;
+}
+
+.bt_reg a{
+    text-decoration-line: none;
+    color: black;
+}
+
+.head_k{
+    top: 19px;
+    position: fixed;
+    z-index: 5;
+    right: 450px;
+    font-family:FCHOME;
+    color: black;;
+    font-size: 20px;
+}
+.botton{
+    padding-top: 300px;
+    position: absolute;  
+}
+
+.Add_form{
+    margin-top:150px;
+    /* text-align:center; */
+    display: block;
+    border: 1px solid black;
+    margin-left:700px;
+    margin-right:700px;
+    padding: 70px 50px 70px 50px;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    color:black;
+    display: block;
+}
+
+input[type="file"]{
+    text-align: center;
+    color:black;
+}
+
+
+
+.Add_form p{
+    margin: 0px;
+    padding: 0 0 20px 0;
+    font-weight:  bold;
+    font-family: FCHOME;
+    font-size:20px;
+}
+.h1{
+    margin: 0;
+    padding: 0 0 30px;
+    text-align: center;
+    font-size: 35px;
+    top: 0%;
+    font-family:FCHOME;
+    color: #a83b24;;
+}
+.Add_form input{
+    width: 80%;
+    margin-bottom: 20px;
+}
+.Add_form input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 55px;
+    background:#a83b24;
+    color:white;
+    font-size: 28px;
+    border-radius: 10px;
+    font-family: FCHOME;
+    margin-top: 20px;
+}
+.Add_form a{
+    text-decoration: none;
+    font-size: 15px ;
+    line-height: 20px;
+    color: black;
+}
+.Add_form input[type="text"]{
+    height: 50px;
+    font-family: FCHOME;
+}
+
+p a{
+    padding: 10px 10px 10px 10px;
+    background-color: #a83b24;
+    display: block;
+    color:#fff;
+    border-radius: 10px;
+    margin-left: 900px;
+    margin-right: 900px;
+    
+}

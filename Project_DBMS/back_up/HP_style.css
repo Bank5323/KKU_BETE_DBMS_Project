@@ -1,0 +1,132 @@
+@font-face{
+    src:url(font/FC\ Home\ Regular\ ver\ 1.01.ttf);
+    font-family: FCHOME;
+}
+@font-face{
+    src:url(font/BebasNeue-Regular.ttf);
+    font-family: BEBAS;
+}
+/*----------------------------------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.head_bg{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index:1;
+}
+
+.head_logo{
+    position: fixed;
+    z-index: 5;
+    top: 10px;
+    left: 350px;
+}
+
+.bt_login{          /* Login*/
+    top: 19px;
+    position: fixed;
+    z-index: 5;
+    right: 470px;
+    font-family:FCHOME;
+    color: black;;
+    font-size: 20px;
+}
+
+.bt_login a{
+    text-decoration-line: none;
+    color:black;
+}
+
+.bt_reg{            /* Register*/
+    top: 19px;
+    position: fixed;
+    z-index: 5;
+    right: 350px;
+    font-family:FCHOME;
+    color: black;;
+    font-size: 20px;
+}
+
+.bt_reg a{
+    text-decoration-line: none;
+    color: black;
+}
+
+.head_k{
+    top: 19px;
+    position: fixed;
+    z-index: 5;
+    right: 450px;
+    font-family:FCHOME;
+    color: black;;
+    font-size: 20px;
+}
+
+.wall{
+    left: 0px;
+    margin-top:20px;
+    background-image: url(Photo/hp1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 550px;
+}
+
+.wall a{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 45%;
+
+} 
+.wall a:hover{
+    transform: scale(1.2);
+    transition: transform 0.5s;
+}
+
+
+.content h1{
+    padding-top: 100px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-family:FCHOME;
+    color: #a83b24;
+    font-size: 58px;
+}
+
+.botton{
+    padding-top: 0px;
+    position: absolute;  
+}
+.wall h1{
+    text-align: center;
+    font-family:BEBAS;
+    color: #fff;
+    font-size: 58px;
+}
+
+.wall h2{
+    padding-top: 400px;
+    text-align: center;
+    font-family:FCHOME;
+    color: #fff;
+    font-size: 24px;
+}
+.content{
+    margin-bottom: 100px;
+}
+
+/*------------------------------------------------------------------*/
+.wallet{            /* Register*/
+    top: 19px;
+    position: fixed;
+    z-index: 6;
+    right: 520px;
+    font-family:FCHOME;
+    color: black;
+    font-size: 20px;
+}

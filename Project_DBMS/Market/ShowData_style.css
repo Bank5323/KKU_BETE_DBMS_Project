@@ -1,0 +1,161 @@
+@font-face{
+    src:url(FC\ Home\ Regular\ ver\ 1.01.ttf);
+    font-family: FCHOME;
+}
+@font-face{
+    src:url(font/BebasNeue-Regular.ttf);
+    font-family: BEBAS;
+}
+/*----------------------------------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.head_bg{
+    position: fixed;
+    top: -20px;
+    right: 0px;
+    z-index:2;
+}
+
+.head_logo{
+    position: fixed;
+    z-index: 5;
+    top: -10px;
+    left: 350px;
+}
+
+.bt_login{          /* Login*/
+    top: 19px;
+    position: fixed;
+    z-index: 5;
+    right: 480px;
+    font-family:FCHOME;
+    color: black;;
+    font-size: 20px;
+}
+
+.bt_login a{
+    text-decoration-line: none;
+    color:black;
+}
+
+.bt_reg{            /* Register*/
+    top: 19px;
+    position: fixed;
+    z-index: 5;
+    right: 300px;
+    font-family:FCHOME;
+    color: black;;
+    font-size: 20px;
+}
+
+.bt_reg a{
+    text-decoration-line: none;
+    color: black;
+}
+
+.head_k{
+    top: 19px;
+    position: fixed;
+    z-index: 5;
+    right: 450px;
+    font-family:FCHOME;
+    color: black;;
+    font-size: 20px;
+}
+.botton{
+    padding-top: 300px;
+    position: absolute;  
+}
+
+.container{
+    /* margin-top: 100px; */
+    margin:100px 90px 30px 90px;
+    padding:90px 100px 90px 100px;
+    border: 1px solid black;
+
+}
+.tk{
+    /* border: 1px solid black; */
+    padding: 10px 10px 10px 10px;
+    margin: 30px 50px 30px 50px;
+}
+
+button{
+    color:green;
+    border-width:3px;  
+    border-style:outset;
+    font-family:FCHOME;
+    padding: 5px 5px 5px 5px;
+    font-size: 20px;
+    width:150px;
+}
+img{
+    margin:20px 20px 20px 20px;
+}
+
+.container h1{
+    color: black;
+    margin-left:70px;
+}
+
+.back2{
+    margin-left: 300px;
+    margin-top:60px;
+}
+
+.back2 a{
+    text-decoration: none;
+    margin-left: 400px;
+    padding: 7px 7px 7px 7px;
+    color:green;
+    border-width:3px;  
+    border-style:outset;
+
+}
+
+thead td{
+    margin:60px;
+    color: white;
+    background-color: #a83b24;
+    padding:10px 10px 10px 10px;
+    text-align: center;
+    font-family:FCHOME;
+    font-size: 20px;
+
+}
+
+.container .close{
+    text-align:center;
+    font-family:FCHOME;
+    font-size:30px;
+
+}
+.container .close a{
+    padding: 10px 30px 10px 30px;
+    border: 1px solid green;
+    text-decoration:none;
+    border-radius: 20px;
+    color: white;
+    background-color:green;
+
+}
+.container .close p{
+    margin-bottom: 50px;
+
+}
+.title{
+    font-family: FCHOME;
+    margin-left: 70px;
+    margin-top: 20px;
+    font-size:35px
+}
+.tk{
+    text-align:center;
+    font-family:FCHOME;
+    font-size:23px;
+}

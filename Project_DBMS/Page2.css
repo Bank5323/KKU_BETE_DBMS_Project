@@ -1,0 +1,291 @@
+
+@font-face{
+    src:url(font/FC\ Home\ Regular\ ver\ 1.01.ttf);
+    font-family: FCHOME;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    background-color:white;
+    overflow-x: hidden;
+}
+
+
+.content-area .text-content{
+    padding:10px 10px;
+    
+}
+
+.content-area{
+    position: absolute;
+    top:80px;
+    background-color:wh;
+   
+    margin-left:150px;
+}
+.bottonPage{
+    float: right;
+    position: relative;
+    top: 100px;
+    left: -70px;
+       
+}
+.b1{
+    margin: 10px;
+}
+
+
+
+.t1{
+    position:absolute;
+    top:330px;
+    right:1015px
+}
+.t1:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+.t2{
+    position:absolute;
+    top:332px;
+    right:1065px
+}
+.t2:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+.t3{
+    position:absolute;
+    top:320px;
+    right:1165px
+}
+.t3:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+.t4{
+    position:absolute;
+    top:405px;
+    right:1010px
+}
+.t4:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+.t5{
+    position:absolute;
+    top:390px;
+    right:980px
+}
+.t5:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+.t6{
+    position:absolute;
+    top:425px;
+    right:940px
+}
+.t6:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+.t7{
+    position:absolute;
+    top:420px;
+    right:888px
+}
+.t7:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+.t8{
+    position:absolute;
+    top:490px;
+    right:970px
+}
+.t8:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+h1{
+    font-family:cursive;
+}
+
+
+.head_bg{
+    position: fixed;
+    z-index: 3;
+    top: 0px;
+    left: 0px;
+    
+}
+.head_logo{
+    position: fixed;
+    z-index: 6;
+    top: 10px;
+    left: 350px;
+}
+
+.bt_logout{        
+    top: 19px;
+    position: fixed;
+    z-index: 5;
+    right: 350px;
+    font-family:FCHOME;
+    color: black;;
+    font-size: 20px;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.head_bg{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index:1;
+    
+}
+.head_logo{
+    position: fixed;
+    z-index: 5;
+    top: 10px;
+    left: 350px;
+}
+
+.bt_login{          /* Login*/
+    top: 19px;
+    position: fixed;
+    z-index: 5;
+    right: 470px;
+    font-family:FCHOME;
+    color: black;;
+    font-size: 20px;
+}
+
+.bt_login a{
+    text-decoration-line: none;
+    color:black;
+}
+
+.bt_reg{            /* Register*/
+    top: 19px;
+    position: fixed;
+    z-index: 5;
+    right: 350px;
+    font-family:FCHOME;
+    color: black;
+    font-size: 20px;
+}
+
+.bt_reg a{
+    text-decoration-line: none;
+    color: black;
+}
+
+.head_k{
+    top: 19px;
+    position: fixed;
+    z-index: 5;
+    right: 450px;
+    font-family:FCHOME;
+    color: black;;
+    font-size: 20px;
+}
+
+.tagmap{
+    position: relative;
+    top: 20px;
+}
+
+.bottonPage .text-content h1{
+  font-family: FCHOME;
+  color:#a83b24  ;
+  font-size: 48px;
+  margin-bottom: 30px;
+};
+
+.control_user .wallet{            /* Register*/
+    top: 19px;
+    position: fixed;
+    z-index: 6;
+    right: 520px;
+    font-family:FCHOME;
+    color: black;
+    font-size: 20px;
+}
+
+.head_bg{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index:1;
+}
+
+.head_logo{
+    position: fixed;
+    z-index: 5;
+    top: 10px;
+    left: 350px;
+}
+
+.bt_login{          /* Login*/
+    top: 19px;
+    position: fixed;
+    z-index: 5;
+    right: 470px;
+    font-family:FCHOME;
+    color: rgb(0, 255, 76);;
+    font-size: 20px;
+}
+
+.bt_login a{
+    text-decoration-line: none;
+    color:black;
+}
+
+.bt_reg{            /* Register*/
+    top: 19px;
+    position: fixed;
+    z-index: 5;
+    right: 350px;
+    font-family:FCHOME;
+    color: black;;
+    font-size: 20px;
+}
+
+.bt_reg a{
+    text-decoration-line: none;
+    color: black;
+}
+
+.head_k{
+    top: 19px;
+    position: fixed;
+    z-index: 5;
+    right: 450px;
+    font-family:FCHOME;
+    color: black;;
+    font-size: 20px;
+}
+
+.wallet{            /* Register*/
+    top: 19px;
+    position: fixed;
+    z-index: 6;
+    right: 520px;
+    font-family:FCHOME;
+    color: black;
+    font-size: 20px;
+}

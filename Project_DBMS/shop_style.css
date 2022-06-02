@@ -1,0 +1,224 @@
+@font-face{
+    src:url(font/FC\ Home\ Regular\ ver\ 1.01.ttf);
+    font-family: FCHOME;
+
+}
+*{
+    background:white;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    overflow-x: hidden;
+    background-color: #ffffff;
+}
+.head_bg{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index:1;
+    
+}
+.head_logo{
+    position: fixed;
+    z-index: 5;
+    top: 10px;
+    left: 350px;
+}
+
+.bt_login{          /* Login*/
+    top: 19px;
+    position: fixed;
+    z-index: 6;
+    right: 470px;
+    font-family:FCHOME;
+    color: black;;
+    font-size: 20px;
+}
+
+.bt_login a{
+    text-decoration-line: none;
+    color:black;
+
+}
+
+.bt_reg{            /* Register*/
+    top: 19px;
+    position: fixed;
+    z-index: 5;
+    right: 330px;
+    font-family:FCHOME;
+    color: black;;
+    font-size: 20px;
+}
+
+.bt_reg a{
+    text-decoration-line: none;
+    color: black;
+}
+
+.head_k{
+    top: 19px;
+    position: fixed;
+    z-index: 5;
+    right: 460px;
+    font-family:FCHOME;
+    color: black;;
+    font-size: 20px;
+}
+
+.bt_reg2{
+    top: 19px;
+    position: fixed;
+    z-index: 6;
+    right:300px;
+}
+ .bt_reg2 img{
+    width:25px;
+    height:25px;
+ }
+
+
+/* ------------------------------------------------------------------------------- */
+
+.botton{
+    margin-top: 350px;
+}
+.name_mar2{
+    font-family:FCHONE;
+    font-size: 20px;
+}
+
+.container{
+    
+    
+    
+    /* margin-right:200px;
+    margin-left:200px; */
+    border: 1px solid gray;
+    font-family:FCHONE;
+
+    margin: 20px auto;
+    width: 980px;
+    margin-top: 100px;
+    padding: 50px 100px 100px 100px;
+}
+a{
+    text-decoration: none;
+    padding-left: 30px;
+}
+input{
+    margin-left: 20px;
+}
+table,
+td {
+    /* border: 1px solid #000000; */
+
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding: 20px 20px 20px 20px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom:30px;
+    padding-left: 30px;
+    
+}
+.container .photo_market{
+    margin: auto;
+}
+.container .price_market{
+    margin: auto;
+    font-family:FCHOME;
+    color:black;
+    font-size: 25px;
+}
+.container .Name_market{
+    margin: auto;
+    font-family:FCHOME;
+    color:black;
+    font-size: 25px;
+
+   
+   
+   
+    
+    text-align: left;
+    margin-left: 30px;
+}
+.container .Am_arket{
+    font-family:FCHOME;
+}
+.container .box_c{
+    font-family:FCHOME;
+    font-size: 20px;
+    text-align: left;
+}
+.container .Add_market{
+    margin: auto;
+}
+.container .G{
+    font-family:FCHOME;
+    font-size: 20px;
+    color: green
+}
+
+
+.container p{
+    /* margin-top: 20px;
+    font-size: 30px;
+    font-family:FCHOME;
+    color:black;
+    text-align: left;
+    margin-left: 30px; */
+    font-family: FCHOME;
+    font-size: 30px;
+    color: #000000;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.container h1{
+    font-size: 50px;
+    font-family:FCHOME;
+    color:#a83b24;
+    text-align: center;
+    
+}
+
+.Add_market .submit{
+    font-family:FCHOME;
+}
+.B_back{
+    /* text-align: center;
+    font-family:FCHOME;
+    font-size: 30px;
+    color:black; */
+    font-family:FCHOME;
+    font-size: 25px;
+
+    padding: 2px 5px 2px 2px;
+    border-width:1px;  
+    border-style:solid;
+    border-color: black;
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.control_user .wallet{            /* Register*/
+    top: 19px;
+    position: fixed;
+    z-index: 6;
+    right: 525px;
+    font-family:FCHOME;
+    color: black;
+    font-size: 20px;
+}
